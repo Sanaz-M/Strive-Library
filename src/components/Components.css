@@ -20,6 +20,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: #b0c4b9;
+}
+
 .its-a-row{
     width: 100%;
 }
