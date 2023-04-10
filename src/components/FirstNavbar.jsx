@@ -10,11 +10,10 @@ const FirstNavbar = () => (
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
-                <div>Home</div>
+                <Link to="/">Home</Link>
                 <Link to="/register">
                 <div>Register</div>
                 </Link>
-                <div>Browse</div>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
