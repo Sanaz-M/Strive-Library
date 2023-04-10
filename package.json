@@ -2,13 +2,9 @@
   "name": "strive-library",
   "version": "0.1.0",
   "private": true,
-  "jest": {
-    "verbose": true
-  },
   "dependencies": {
     "bootstrap": "^4.6.0",
     "date-fns": "^2.25.0",
-    "jest-cli": "^27.4.5",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.4",
     "react-dom": "^17.0.2",
