@@ -1,0 +1,63 @@
+
+#footer1{
+    padding: 5px;
+    border-top: 1px solid rgb(145, 140, 140);
+}
+
+.jumbotron1{
+    color: rgb(31, 2, 51);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url('https://images.unsplash.com/photo-1491841573634-28140fc7ced7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    
+}
+
+.its-a-row{
+    width: 100%;
+}
+
+.its-a-row > img {
+    height: 440px;
+    width: 600px;
+    margin: 0 10px;
+    object-fit: cover;
+}
+
+.its-a-row > span{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    font-size: 70px;
+    font-weight: 800;
+    font-family:cursive;
+}
+
+.bookCards{
+    margin-bottom: 12px;
+    height: 25rem;
+}
+
+.bookCards1{
+    margin: 30px;
+    min-width: 150px;
+}
+
+.bookTitle{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#alert1{
+    width: 200px;
+}
+
+.searchBar1{
+    width: 100%;
+    padding: 0 40px;
+}
